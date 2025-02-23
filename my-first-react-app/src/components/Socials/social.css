@@ -1,0 +1,10 @@
+.socialLink{
+    width: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.socialLink>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
