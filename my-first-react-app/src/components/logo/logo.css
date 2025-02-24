@@ -26,12 +26,16 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+    padding: 0.5rem;
     border-radius: 50%;
 }
 .logo{
     position: relative;
+    width: min-content;
+    white-space: nowrap;
     
 }
+
 .logoText{
     
     

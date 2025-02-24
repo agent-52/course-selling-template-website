@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/header/Header'
+import Section1 from './components/Section1/Section1'
 import './App.css'
 import "../src/index.css"
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className='pdi2 f2'>
         <Header />
+        <Section1 />
       </div>
     </>
   )
