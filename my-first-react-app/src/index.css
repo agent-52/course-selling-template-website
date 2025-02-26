@@ -14,7 +14,7 @@
 input{
   outline: none;
   border: none;
-  border-bottom: 2px solid #FFFFE3;
+  border-bottom: 2px solid #002C58;
 }
 body{
 background-color: #EAEAEA;
@@ -134,7 +134,7 @@ gap: 6rem;
 }
 .fs1{
   font-size: 1.1rem;
-  line-height: 1.1rem;
+  line-height: 1.5rem;
 }
 .fs1_2{
 font-size: 1.2rem;
@@ -217,6 +217,9 @@ line-height: 3rem;
 .pdi3{
   padding-inline: 3rem;
 }
+.pdi4{
+  padding-inline: 5rem;
+}
 
 
 .pdb0_5{
@@ -247,7 +250,7 @@ line-height: 3rem;
   padding-block: 5rem;
 }
 .pdb6{
-  padding-block: 6rem;
+  padding-block: 8rem;
 }
 .pdt1{
   padding-top: 1rem;
@@ -290,10 +293,16 @@ line-height: 3rem;
   margin-top: 4rem;
  }
  .mgT8{
-  margin-top: 10rem;
+  margin-top: 12rem;
  }
  .mgB2{
   margin-bottom: 1.8rem;
+ }
+ .mgB1{
+  margin-bottom: 1rem;
+ }
+ .mgB0{
+  margin-bottom: 0.5rem;
  }
  .mgL4{
   margin-left: 4rem;
@@ -345,7 +354,7 @@ border-top: 1px solid #ffffe39a;
   grid-template-columns: 1fr 1.5fr 1fr;
   height: 100vh;
 }
-.section2{
+/* .section2{
   padding-inline: 4rem;
   padding-block: 5rem;
 }
@@ -354,7 +363,7 @@ border-top: 1px solid #ffffe39a;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   justify-items: center;
-}
+} */
 .section3{
   display: grid;
   grid-template-columns: 1fr 1fr ;
@@ -376,11 +385,11 @@ border-top: 1px solid #ffffe39a;
  */
  input, textarea{
   background-color: transparent;
-  font-family: lightF;
+  font-family: f2;
   font-size: 1rem;
   border: none;
   outline: none;
-  border-bottom: 2px solid  #FFFFE3;
+  border-bottom: 2px solid  #002C58
  }
  .emailBox{
   background-color: transparent;
@@ -389,8 +398,11 @@ border-top: 1px solid #ffffe39a;
   padding: 0.7rem 1.5rem;
   width: 28%;
  }
+ form{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ }
  label{
-  font-family: lightF;
+  font-family: f2;
 
  }
 
@@ -438,3 +450,22 @@ border-top: 1px solid #ffffe39a;
   background-color: #002C58;
   
  }
+
+ .threejs{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  /* border: 2px solid red; */
+}
+
+.box {
+    
+  width: 40px;
+  aspect-ratio: 1;
+  
+}
+.box>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

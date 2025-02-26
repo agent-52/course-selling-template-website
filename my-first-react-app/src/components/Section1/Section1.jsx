@@ -1,6 +1,7 @@
 import Logo from "../logo/Logo"
 import Button from "../Button/Button"
 import "./Section1.css"
+import Element from "../3dElement/Element"
 const Section1 = () =>{
 
     return(
@@ -9,13 +10,15 @@ const Section1 = () =>{
                 
                 <div className="s1ImgBox mgL4 mgT4"><img src="/images/photos/i5.png" alt="" /></div>
                 <div className="box flute1"><img src="/images/icons/flute.png" alt="" /></div>
+                <div className="threejs"><Element /></div>
                 
             </div>
             <div className="flexC alignC mgT8 gap0">
                 <div className="mgB2">
                 <Logo classArray1="f1 fs2_5 cW" classArray2="f1 fs1 cW"/>
+                
                 </div>
-                <h1 className="f1 fs3 " style={{fontWeight: 100}}>First Notes to Masterpieces</h1>
+                <h1 className="f1 fs3 cBl" style={{fontWeight: 100}}>First Notes to Masterpieces</h1>
                 <div className="mxW55 textC fs1_2 flexC gap00" style={{fontWeight: 50, opacity: 0.5}}>
                     <div >Get expert music lessons from qualified teachers</div>
                     <div>in the comfort of your own home with our live</div> 
