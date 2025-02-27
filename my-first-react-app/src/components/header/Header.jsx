@@ -4,7 +4,7 @@ import Socials from "../Socials/Socials"
 const Header = () =>{
 
     return (
-        <header className="justifyBw flex w100 pdb1_5 fs1 alignC">
+        <header className="justifyBw flex w100 pdb1_5 fs1 pdi2 alignC">
             <div className="f2 flex justifyL gap6 w100">
                 <div>Home</div>
                 <div>About Us</div>

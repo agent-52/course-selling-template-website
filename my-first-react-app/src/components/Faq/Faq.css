@@ -1,0 +1,34 @@
+.faqImgBox{
+    width: 25px;
+    aspect-ratio: 1;
+}
+
+.faqImgBox>img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.faq{
+    width: 70%;
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 0.5rem;
+}
+.fade{
+    opacity: 0.5;
+}
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    height: 0px;
+    overflow: hidden;
+}
+.answer, .question{
+    transition: all 0.3s ease-out;
+}
+.vivisbleAns{
+    visibility: visible;
+    opacity: 1;
+    height: fit-content;
+
+}

@@ -6,14 +6,14 @@ const Section1 = () =>{
 
     return(
         <div className="section1 ">
-            <div className="relative">
+            <div className="relative flexC justifyC alignC">
                 
-                <div className="s1ImgBox mgL4 mgT4"><img src="/images/photos/i5.png" alt="" /></div>
+                <div className="s1ImgBox mgL4 mgT5"><img src="/images/photos/i5.png" alt="" /></div>
                 <div className="box flute1"><img src="/images/icons/flute.png" alt="" /></div>
                 <div className="threejs"><Element /></div>
                 
             </div>
-            <div className="flexC alignC mgT8 gap0">
+            <div className="flexC alignC justifyC gap0">
                 <div className="mgB2">
                 <Logo classArray1="f1 fs2_5 cW" classArray2="f1 fs1 cW"/>
                 

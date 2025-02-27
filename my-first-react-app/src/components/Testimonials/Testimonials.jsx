@@ -54,10 +54,10 @@ const Testimonials = () =>{
         }
     }
     return(
-        <div>
-            <button onClick={handleNext} className="box"><img src="/images/icons/arrow.png" alt="next" /></button>
+        <div className="flex justifySe gap2 alignC bgLb pdb1_5 w100Vw">
+            <button onClick={handleNext} className="box bgLb testimonialButtons"><img src="/images/icons/back.png" alt="next" /></button>
              <TestimonialComponent name={message.name} message={message.message} heading={message.heading}/> 
-            <button onClick={handleBack} className="box"><img src="/images/icons/arrow.png" alt="back" /></button>
+            <button onClick={handleBack} className="box bgLb testimonialButtons"><img src="/images/icons/next.png" alt="back" /></button>
         </div>
     )
 }

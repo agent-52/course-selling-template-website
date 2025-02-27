@@ -1,0 +1,11 @@
+.testimonialButtons:hover{
+    background-color: #4363852f;
+    border-radius: 50%;
+    transform: scale(1.1);
+    
+    
+}
+.testimonialButtons{
+    transition: all 0.2s ease;
+    
+}
