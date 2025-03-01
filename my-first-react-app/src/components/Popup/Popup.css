@@ -1,0 +1,34 @@
+.popupInput{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: white;
+}
+.popup{
+    width: min-content;
+    height: min-content;
+    white-space: noWrap;
+   
+    position: fixed;
+    z-index: 1000;
+    
+    right: 15px;
+    bottom: 10px;
+}
+.popupContent{
+    padding: 1rem 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.cross{
+    /* position: absolute; */
+    /* background-color: #ADBBC6; */
+    width: 50px;
+    display: grid;
+    place-content: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* right: 5px;
+    bottom: 5px; */
+}
