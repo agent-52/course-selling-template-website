@@ -1,8 +1,10 @@
 import Faq from "../Faq/Faq"
+import Testimonials from "../Testimonials/Testimonials"
 
 const Section3 = () =>{
     return(
         <section className="pdb6 flexC gap3">
+            <div className="pdb2"><Testimonials /></div>
             <h1 className="fs3 f1 cBl textC">Frequently Asked Questions</h1>
             <div className="flexC alignC gap0">
                 <Faq question="Who are lessons suitable for ?" answer="These lessons are suitable for individuals who are 5+ years old. Our teachers are bilingual and can speak both english and hindi."/>

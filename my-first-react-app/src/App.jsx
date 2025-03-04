@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import Popup from './components/Popup/Popup'
 import './App.css'
 import "../src/index.css"
+import LessonSection from './components/LessonSection/LessonSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Section1 />
         <Section2 />
+        <LessonSection />
         <Section3 />
         <Footer />
       </div>

@@ -54,7 +54,7 @@ const Testimonials = () =>{
         }
     }
     return(
-        <div className="flex justifySe gap2 alignC bgLb pdb1_5 w100Vw">
+        <div className="flex justifySe gap2 alignC bgLb pdb2 w100Vw">
             <button onClick={handleNext} className="box bgLb testimonialButtons"><img src="/images/icons/back.png" alt="next" /></button>
              <TestimonialComponent name={message.name} message={message.message} heading={message.heading}/> 
             <button onClick={handleBack} className="box bgLb testimonialButtons"><img src="/images/icons/next.png" alt="back" /></button>

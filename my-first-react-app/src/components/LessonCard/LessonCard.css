@@ -1,0 +1,28 @@
+.lessonCard{
+    width: 250px;
+    aspect-ratio: 1.4;
+}
+.lessonImg{
+    width: 100%;
+    height: 100%;
+}
+.lessonImg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cartImgBox{
+    width: 25px;
+    aspect-ratio: 1;
+}
+.cartImgBox>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.lessonCard{
+    background-color: white;
+    padding-bottom: 0.5rem;
+}

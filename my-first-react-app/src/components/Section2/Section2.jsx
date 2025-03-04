@@ -49,7 +49,7 @@ const Section2 = ({name="Relya", city="mumbai"}) =>{
                 </div>
             </div>
             
-            <div className="pdb6">
+            <div className="pdb4 pdB6">
                 <div className="flex alignC justifySe ">
                     <div className="s1ImgBox1"><img src="/images/photos/i2.jpg" alt="" /></div>
                     <div className="flexC gap1">
@@ -59,7 +59,7 @@ const Section2 = ({name="Relya", city="mumbai"}) =>{
                     </div>
                 </div>
             </div>
-            <Testimonials />
+            
         </div>
     )
 }

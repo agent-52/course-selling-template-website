@@ -215,6 +215,9 @@ line-height: 3rem;
 
 /* 
 */
+.pdi0{
+  padding-inline: 0.5rem;
+}
 .pdi1{
   padding-inline: 1rem;
 }.pdi1_5{
@@ -261,6 +264,9 @@ line-height: 3rem;
 .pdb6{
   padding-block: 8rem;
 }
+.pdt0{
+  padding-top: 0.5rem;
+}
 .pdt1{
   padding-top: 1rem;
 }
@@ -281,6 +287,9 @@ line-height: 3rem;
 }
 .pdB2{
   padding-bottom: 2rem;
+}
+.pdB6{
+  padding-bottom: 6rem;
 }
 .pdB1{
   padding-bottom: 1.7rem;
@@ -351,6 +360,9 @@ border-top: 1px solid #ffffe39a;
  }
  .w100{
   width: 100%
+ }
+ .w80{
+  width: 60%;
  }
  .h100{
   height: 100%;
